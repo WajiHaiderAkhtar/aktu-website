@@ -47,7 +47,7 @@
 }
 
 .contentleft {
-  font-family: var(--font1);
+  /* font-family: var(--font1); */
   width: 60%;
   display: flex;
   justify-content: center;
@@ -118,12 +118,20 @@
   font-weight: bold;
 }
 
+.redirectButton{
+  margin:70px auto;
+  font-size: 17px;
+}
+
 @media only screen and (max-width: 1140px) {
   .navigation {
     display: none;
     height: 1px;
   }
-
+  .content {
+    height: 35vh;
+    width: 93vw;
+  }
   .contentright {
     height: 0px;
     width: 0px;
@@ -132,13 +140,33 @@
 
   .contentleft {
     width: 90vw;
-    height: 50vh;
-  
+    height: 40vh;
   }
-  .heading{
-    font-size: 25px;
-    font-weight: 350px;
+  .heading {
+    font-size: 20px;
+    font-weight: bold;
   }
 
-  
+  h1 {
+    font-size: 20px;
+  }
+  .para {
+    font-size: 20px;
+  }
+  .download {
+    height: 300px;
+    width: 220px;
+  }
+  .download img {
+    height: 120px;
+    width: 120px;
+    margin: 0px 0px 10px 0px;
+  }
+
+  .btn3 {
+    height: 32px;
+    width: 170px;
+    font-size: 18px;
+    margin: 10px 0px 0px 0px;
+  }
 }
