@@ -129,7 +129,7 @@
     height: 1px;
   }
   .content {
-    height: 35vh;
+    height: 18vh;
     width: 93vw;
   }
   .contentright {
@@ -140,7 +140,7 @@
 
   .contentleft {
     width: 90vw;
-    height: 40vh;
+    height: 17vh;
   }
   .heading {
     font-size: 20px;
@@ -154,8 +154,9 @@
     font-size: 20px;
   }
   .download {
-    height: 300px;
-    width: 240px;
+    height: 310px;
+    width: 260px;
+    margin: 30px 55px 30px 55px;
   }
   .download img {
     height: 120px;
@@ -165,8 +166,12 @@
 
   .btn3 {
     height: 32px;
-    width: 150px;
+    width: 140px;
     font-size: 18px;
     margin: 10px 0px 0px 0px;
+  }
+  .redirectButton{
+    margin: 60px auto 60px auto;
+    font-size: 17px;
   }
 }
