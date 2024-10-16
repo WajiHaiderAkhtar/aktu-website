@@ -10,6 +10,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  top: 0;
 }
 
 .footer {
@@ -110,4 +112,33 @@
   text-align: center;
   padding-top: 7px;
   font-family: var(--font2);
+}
+.heading {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 1140px) {
+  .navigation {
+    display: none;
+    height: 1px;
+  }
+
+  .contentright {
+    height: 0px;
+    width: 0px;
+    display: none;
+  }
+
+  .contentleft {
+    width: 90vw;
+    height: 50vh;
+  
+  }
+  .heading{
+    font-size: 25px;
+    font-weight: 350px;
+  }
+
+  
 }
